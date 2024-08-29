@@ -3,7 +3,7 @@
 ## Prerequisites
 * OS: Ubuntu 22.04
 * SNPE SDK: v2.22.6.240515
-* Model: YOLOv5 or YOLOv8
+* Model: YOLOv5 or YOLOv8 (.pt)
 
 ## SNPE SDK Installation
 [SNPE SDK](https://www.qualcomm.com/developer/software/neural-processing-sdk-for-ai)
