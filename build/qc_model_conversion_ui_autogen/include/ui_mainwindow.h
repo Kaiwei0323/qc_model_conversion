@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 5.15.2
+** Created by: Qt User Interface Compiler version 5.15.3
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -58,7 +58,7 @@ public:
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
         MainWindow->setWindowModality(Qt::WindowModal);
-        MainWindow->resize(1128, 700);
+        MainWindow->resize(1411, 909);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         uploadButton = new QPushButton(centralwidget);
@@ -78,7 +78,7 @@ public:
         outputStatusLabel->setGeometry(QRect(30, 330, 361, 41));
         convertStatusLabel = new QLabel(centralwidget);
         convertStatusLabel->setObjectName(QString::fromUtf8("convertStatusLabel"));
-        convertStatusLabel->setGeometry(QRect(30, 580, 961, 71));
+        convertStatusLabel->setGeometry(QRect(30, 580, 1341, 281));
         convertTypeComboBox = new QComboBox(centralwidget);
         convertTypeComboBox->addItem(QString());
         convertTypeComboBox->addItem(QString());
@@ -143,7 +143,7 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 1128, 22));
+        menubar->setGeometry(QRect(0, 0, 1411, 22));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));

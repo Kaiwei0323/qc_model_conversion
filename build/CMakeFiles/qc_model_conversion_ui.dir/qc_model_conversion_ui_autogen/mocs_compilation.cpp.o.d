@@ -115,17 +115,17 @@ CMakeFiles/qc_model_conversion_ui.dir/qc_model_conversion_ui_autogen/mocs_compil
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
  /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/build/qc_model_conversion_ui_autogen/EWIEGA46WW/../../../mainwindow.h \
- /home/inventec/anaconda3/include/qt/QtWidgets/QMainWindow \
- /home/inventec/anaconda3/include/qt/QtWidgets/qmainwindow.h \
- /home/inventec/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h \
- /home/inventec/anaconda3/include/qt/QtGui/qtguiglobal.h \
- /home/inventec/anaconda3/include/qt/QtCore/qglobal.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
  /usr/include/c++/11/cstddef /usr/include/assert.h \
- /home/inventec/anaconda3/include/qt/QtCore/qconfig.h \
- /home/inventec/anaconda3/include/qt/QtCore/qtcore-config.h \
- /home/inventec/anaconda3/include/qt/QtCore/qsystemdetection.h \
- /home/inventec/anaconda3/include/qt/QtCore/qprocessordetection.h \
- /home/inventec/anaconda3/include/qt/QtCore/qcompilerdetection.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/cstdlib /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
@@ -141,31 +141,31 @@ CMakeFiles/qc_model_conversion_ui.dir/qc_model_conversion_ui_autogen/mocs_compil
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/uniform_int_dist.h \
- /home/inventec/anaconda3/include/qt/QtCore/qtypeinfo.h \
- /home/inventec/anaconda3/include/qt/QtCore/qsysinfo.h \
- /home/inventec/anaconda3/include/qt/QtCore/qlogging.h \
- /home/inventec/anaconda3/include/qt/QtCore/qflags.h \
- /home/inventec/anaconda3/include/qt/QtCore/qatomic.h \
- /home/inventec/anaconda3/include/qt/QtCore/qbasicatomic.h \
- /home/inventec/anaconda3/include/qt/QtCore/qatomic_cxx11.h \
- /home/inventec/anaconda3/include/qt/QtCore/qgenericatomic.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
  /usr/include/c++/11/atomic \
- /home/inventec/anaconda3/include/qt/QtCore/qglobalstatic.h \
- /home/inventec/anaconda3/include/qt/QtCore/qnumeric.h \
- /home/inventec/anaconda3/include/qt/QtCore/qversiontagging.h \
- /home/inventec/anaconda3/include/qt/QtGui/qtgui-config.h \
- /home/inventec/anaconda3/include/qt/QtWidgets/qtwidgets-config.h \
- /home/inventec/anaconda3/include/qt/QtWidgets/qwidget.h \
- /home/inventec/anaconda3/include/qt/QtGui/qwindowdefs.h \
- /home/inventec/anaconda3/include/qt/QtCore/qobjectdefs.h \
- /home/inventec/anaconda3/include/qt/QtCore/qnamespace.h \
- /home/inventec/anaconda3/include/qt/QtCore/qobjectdefs_impl.h \
- /home/inventec/anaconda3/include/qt/QtCore/qobject.h \
- /home/inventec/anaconda3/include/qt/QtCore/qstring.h \
- /home/inventec/anaconda3/include/qt/QtCore/qchar.h \
- /home/inventec/anaconda3/include/qt/QtCore/qbytearray.h \
- /home/inventec/anaconda3/include/qt/QtCore/qrefcount.h \
- /home/inventec/anaconda3/include/qt/QtCore/qarraydata.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/c++/11/stdlib.h /usr/include/c++/11/string \
  /usr/include/c++/11/bits/char_traits.h /usr/include/c++/11/cstdint \
@@ -197,18 +197,18 @@ CMakeFiles/qc_model_conversion_ui.dir/qc_model_conversion_ui_autogen/mocs_compil
  /usr/include/c++/11/system_error \
  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
  /usr/include/c++/11/stdexcept /usr/include/c++/11/bits/streambuf.tcc \
- /home/inventec/anaconda3/include/qt/QtCore/qstringliteral.h \
- /home/inventec/anaconda3/include/qt/QtCore/qstringalgorithms.h \
- /home/inventec/anaconda3/include/qt/QtCore/qstringview.h \
- /home/inventec/anaconda3/include/qt/QtCore/qlist.h \
- /home/inventec/anaconda3/include/qt/QtCore/qalgorithms.h \
- /home/inventec/anaconda3/include/qt/QtCore/qiterator.h \
- /home/inventec/anaconda3/include/qt/QtCore/qhashfunctions.h \
- /home/inventec/anaconda3/include/qt/QtCore/qpair.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
  /usr/include/c++/11/numeric /usr/include/c++/11/bits/stl_numeric.h \
  /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
- /home/inventec/anaconda3/include/qt/QtCore/qvector.h \
- /home/inventec/anaconda3/include/qt/QtCore/qcontainertools_impl.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/list \
@@ -221,53 +221,53 @@ CMakeFiles/qc_model_conversion_ui.dir/qc_model_conversion_ui_autogen/mocs_compil
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /home/inventec/anaconda3/include/qt/QtCore/qbytearraylist.h \
- /home/inventec/anaconda3/include/qt/QtCore/qstringlist.h \
- /home/inventec/anaconda3/include/qt/QtCore/qregexp.h \
- /home/inventec/anaconda3/include/qt/QtCore/qstringmatcher.h \
- /home/inventec/anaconda3/include/qt/QtCore/qscopedpointer.h \
- /home/inventec/anaconda3/include/qt/QtCore/qmetatype.h \
- /home/inventec/anaconda3/include/qt/QtCore/qvarlengtharray.h \
- /home/inventec/anaconda3/include/qt/QtCore/qcontainerfwd.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/inventec/anaconda3/include/qt/QtCore/qobject_impl.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/limits /usr/include/c++/11/ctime \
  /usr/include/c++/11/bits/parse_numbers.h \
- /home/inventec/anaconda3/include/qt/QtCore/qmargins.h \
- /home/inventec/anaconda3/include/qt/QtGui/qpaintdevice.h \
- /home/inventec/anaconda3/include/qt/QtCore/qrect.h \
- /home/inventec/anaconda3/include/qt/QtCore/qsize.h \
- /home/inventec/anaconda3/include/qt/QtCore/qpoint.h \
- /home/inventec/anaconda3/include/qt/QtGui/qpalette.h \
- /home/inventec/anaconda3/include/qt/QtGui/qcolor.h \
- /home/inventec/anaconda3/include/qt/QtGui/qrgb.h \
- /home/inventec/anaconda3/include/qt/QtGui/qrgba64.h \
- /home/inventec/anaconda3/include/qt/QtGui/qbrush.h \
- /home/inventec/anaconda3/include/qt/QtGui/qmatrix.h \
- /home/inventec/anaconda3/include/qt/QtGui/qpolygon.h \
- /home/inventec/anaconda3/include/qt/QtGui/qregion.h \
- /home/inventec/anaconda3/include/qt/QtCore/qdatastream.h \
- /home/inventec/anaconda3/include/qt/QtCore/qiodevice.h \
- /home/inventec/anaconda3/include/qt/QtCore/qline.h \
- /home/inventec/anaconda3/include/qt/QtGui/qtransform.h \
- /home/inventec/anaconda3/include/qt/QtGui/qimage.h \
- /home/inventec/anaconda3/include/qt/QtGui/qpixelformat.h \
- /home/inventec/anaconda3/include/qt/QtGui/qpixmap.h \
- /home/inventec/anaconda3/include/qt/QtCore/qsharedpointer.h \
- /home/inventec/anaconda3/include/qt/QtCore/qshareddata.h \
- /home/inventec/anaconda3/include/qt/QtCore/qhash.h \
- /home/inventec/anaconda3/include/qt/QtCore/qsharedpointer_impl.h \
- /home/inventec/anaconda3/include/qt/QtGui/qfont.h \
- /home/inventec/anaconda3/include/qt/QtGui/qfontmetrics.h \
- /home/inventec/anaconda3/include/qt/QtGui/qfontinfo.h \
- /home/inventec/anaconda3/include/qt/QtWidgets/qsizepolicy.h \
- /home/inventec/anaconda3/include/qt/QtGui/qcursor.h \
- /home/inventec/anaconda3/include/qt/QtGui/qkeysequence.h \
- /home/inventec/anaconda3/include/qt/QtWidgets/qtabwidget.h \
- /home/inventec/anaconda3/include/qt/QtGui/qicon.h \
- /home/inventec/anaconda3/include/qt/QtCore/QProcess \
- /home/inventec/anaconda3/include/qt/QtCore/qprocess.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QProcess \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h
