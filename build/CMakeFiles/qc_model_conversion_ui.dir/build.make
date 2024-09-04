@@ -124,9 +124,9 @@ qc_model_conversion_ui: CMakeFiles/qc_model_conversion_ui.dir/qc_model_conversio
 qc_model_conversion_ui: CMakeFiles/qc_model_conversion_ui.dir/main.cpp.o
 qc_model_conversion_ui: CMakeFiles/qc_model_conversion_ui.dir/mainwindow.cpp.o
 qc_model_conversion_ui: CMakeFiles/qc_model_conversion_ui.dir/build.make
-qc_model_conversion_ui: /home/inventec/anaconda3/lib/libQt5Widgets.so.5.15.2
-qc_model_conversion_ui: /home/inventec/anaconda3/lib/libQt5Gui.so.5.15.2
-qc_model_conversion_ui: /home/inventec/anaconda3/lib/libQt5Core.so.5.15.2
+qc_model_conversion_ui: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
+qc_model_conversion_ui: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
+qc_model_conversion_ui: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 qc_model_conversion_ui: CMakeFiles/qc_model_conversion_ui.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable qc_model_conversion_ui"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qc_model_conversion_ui.dir/link.txt --verbose=$(VERBOSE)
