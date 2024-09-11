@@ -63,7 +63,7 @@ public:
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         uploadButton = new QPushButton(centralwidget);
         uploadButton->setObjectName(QString::fromUtf8("uploadButton"));
-        uploadButton->setGeometry(QRect(40, 80, 351, 31));
+        uploadButton->setGeometry(QRect(40, 80, 351, 41));
         outputButton = new QPushButton(centralwidget);
         outputButton->setObjectName(QString::fromUtf8("outputButton"));
         outputButton->setGeometry(QRect(30, 290, 361, 41));
