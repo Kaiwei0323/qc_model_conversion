@@ -194,6 +194,8 @@ void MainWindow::executePythonScript(const QString &scriptPath, const QStringLis
 }
 
 void MainWindow::onConvertButtonClicked() {
+    ui->convertStatusLabel->setText("Starting Conversion Process...");
+    QCoreApplication::processEvents();
     if (ptFilePath.isEmpty() || outputFolder.isEmpty()) {
         ui->convertStatusLabel->setText("Please select a model and an output folder.");
         return;
