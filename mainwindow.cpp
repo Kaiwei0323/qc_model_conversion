@@ -73,7 +73,7 @@ void MainWindow::onUploadButtonClicked()
 
 void MainWindow::onUploadDLCButtonClicked()
 {
-    QString filePath = QFileDialog::getOpenFileName(this, "Open DLC Model", "", "DLC Models (*.DLC);;All Files (*)");
+    QString filePath = QFileDialog::getOpenFileName(this, "Open DLC Model", "", "DLC Models (*.dlc);;All Files (*)");
 
     if (!filePath.isEmpty()) {
         dlcFilePath = filePath;
