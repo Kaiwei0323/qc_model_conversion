@@ -61,7 +61,7 @@ Upload your DLC model (.dlc)
 Click on the "Visualize" button
 
 ## Check Model Input / Output Layer
-YoloV5 (yolov5s_quantized_output.txt)
+### YoloV5 (yolov5s_quantized_output.txt)
 ```
 -----------------------------------------------------------------------------------------------------------------------------------------------
 | Input Name  | Dimensions   | Type    | Encoding Info                                                                                        |
@@ -84,7 +84,7 @@ Summary:
     - Shape: (1, 25200, 85)
     - Type: uint8
 
-YoloV8 (yolov8s_quantized_output.txt)
+### YoloV8 (yolov8s_quantized_output.txt)
 ```
 -----------------------------------------------------------------------------------------------------------------------------------------------
 | Input Name  | Dimensions   | Type    | Encoding Info                                                                                        |
