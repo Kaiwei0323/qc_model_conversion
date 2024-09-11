@@ -74,6 +74,15 @@ YoloV5 (yolov5s_quantized_output.txt)
 | output0      | 1,25200,85  | uFxp_8  | bitwidth 8, min 0.000000000000, max 713.389831542969, scale 2.797607183456, offset 0.000000000000  |
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ```
+Summary:
+* Input Layer:
+    - Name: images
+    - Shape: (1, 640, 640, 3)
+    - Type: uint8
+* Output Layer:
+    - Name: output0
+    - Shape: (1, 25200, 85)
+    - Type: uint8
 
 YoloV8 (yolov8s_quantized_output.txt)
 ```
@@ -88,4 +97,12 @@ YoloV8 (yolov8s_quantized_output.txt)
 | output0      | 1,84,8400   | uFxp_8  | bitwidth 8, min -5.121949195862, max 647.926574707031, scale 2.560974597931, offset -2.000000000000  |
 -----------------------------------------------------------------------------------------------------------------------------------------------
 ```
- 
+Summary:
+* Input Layer
+    - Name: images
+    - Shape: (1, 640, 640, 3)
+    - Type: uint8
+* Output Layer
+    - Name: output0
+    - Shape: (1, 84, 8400)
+    - Type: uint8
