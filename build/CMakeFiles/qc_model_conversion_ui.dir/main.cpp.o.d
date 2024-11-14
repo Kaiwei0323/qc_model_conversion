@@ -1,7 +1,7 @@
 CMakeFiles/qc_model_conversion_ui.dir/main.cpp.o: \
- /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/main.cpp \
+ /home/inventec/Documents/Qualcomm/qc_model_conversion/main.cpp \
  /usr/include/stdc-predef.h \
- /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/mainwindow.h \
+ /home/inventec/Documents/Qualcomm/qc_model_conversion/mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \

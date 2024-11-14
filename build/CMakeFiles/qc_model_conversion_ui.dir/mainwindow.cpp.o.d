@@ -1,7 +1,7 @@
 CMakeFiles/qc_model_conversion_ui.dir/mainwindow.cpp.o: \
- /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/mainwindow.cpp \
+ /home/inventec/Documents/Qualcomm/qc_model_conversion/mainwindow.cpp \
  /usr/include/stdc-predef.h \
- /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/mainwindow.h \
+ /home/inventec/Documents/Qualcomm/qc_model_conversion/mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -273,7 +273,7 @@ CMakeFiles/qc_model_conversion_ui.dir/mainwindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QProcess \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocess.h \
- /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/build/qc_model_conversion_ui_autogen/include/./ui_mainwindow.h \
+ /home/inventec/Documents/Qualcomm/qc_model_conversion/build/qc_model_conversion_ui_autogen/include/./ui_mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \

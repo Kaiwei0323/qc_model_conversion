@@ -1,5 +1,5 @@
-/home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/build/qc_model_conversion_ui_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/mainwindow.h \
-  /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/build/qc_model_conversion_ui_autogen/moc_predefs.h \
+/home/inventec/Documents/Qualcomm/qc_model_conversion/build/qc_model_conversion_ui_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/inventec/Documents/Qualcomm/qc_model_conversion/mainwindow.h \
+  /home/inventec/Documents/Qualcomm/qc_model_conversion/build/qc_model_conversion_ui_autogen/moc_predefs.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \

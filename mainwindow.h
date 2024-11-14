@@ -22,20 +22,27 @@ private slots:
     void onConvertButtonClicked();
     void onQuantizeButtonClicked();
     void onQuantizeChoiceChanged(const QString &text);
-    void onConvertTypeChanged(const QString &text);
+    void onEncodeChoiceChanged(const QString &text);
     
     void onUploadDLCButtonClicked();
     void onVisualizeButtonClicked();
+    
+    void onUploadEncodeButtonClicked();
+    
+    void onResolutionChoiceChanged(const QString &text);
     
     void executePythonScript(const QString &scriptPath, const QStringList &arguments, const QString &successMessagePrefix, const QString &errorMessagePrefix);
 
 private:
     Ui::MainWindow *ui;
-    QString ptFilePath;
+    QString onnxFilePath;
+    QString encodeFilePath;
     QString outputFolder;
     QString quantizeFolder;
     QString dlcFilePath;
-    bool yolov5Convert = true;
+    QString quantizeOutputFolder;
+    QString resolution;
+    bool encode_choice = false;
     bool modelQuantize = false;
 private:
     QProcess *process;

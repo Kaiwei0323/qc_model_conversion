@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui
+CMAKE_SOURCE_DIR = /home/inventec/Documents/Qualcomm/qc_model_conversion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/build
+CMAKE_BINARY_DIR = /home/inventec/Documents/Qualcomm/qc_model_conversion/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/build/CMakeFiles /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/inventec/Documents/Qualcomm/qc_model_conversion/build/CMakeFiles /home/inventec/Documents/Qualcomm/qc_model_conversion/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/inventec/Documents/Qualcomm/qc_model_conversion/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

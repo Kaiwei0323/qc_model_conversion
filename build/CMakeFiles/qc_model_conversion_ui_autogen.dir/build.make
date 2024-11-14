@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui
+CMAKE_SOURCE_DIR = /home/inventec/Documents/Qualcomm/qc_model_conversion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/build
+CMAKE_BINARY_DIR = /home/inventec/Documents/Qualcomm/qc_model_conversion/build
 
 # Utility rule file for qc_model_conversion_ui_autogen.
 
@@ -67,8 +67,8 @@ include CMakeFiles/qc_model_conversion_ui_autogen.dir/compiler_depend.make
 include CMakeFiles/qc_model_conversion_ui_autogen.dir/progress.make
 
 CMakeFiles/qc_model_conversion_ui_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target qc_model_conversion_ui"
-	/usr/bin/cmake -E cmake_autogen /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/build/CMakeFiles/qc_model_conversion_ui_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/inventec/Documents/Qualcomm/qc_model_conversion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target qc_model_conversion_ui"
+	/usr/bin/cmake -E cmake_autogen /home/inventec/Documents/Qualcomm/qc_model_conversion/build/CMakeFiles/qc_model_conversion_ui_autogen.dir/AutogenInfo.json ""
 
 qc_model_conversion_ui_autogen: CMakeFiles/qc_model_conversion_ui_autogen
 qc_model_conversion_ui_autogen: CMakeFiles/qc_model_conversion_ui_autogen.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/qc_model_conversion_ui_autogen.dir/clean:
 .PHONY : CMakeFiles/qc_model_conversion_ui_autogen.dir/clean
 
 CMakeFiles/qc_model_conversion_ui_autogen.dir/depend:
-	cd /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/build /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/build /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/build/CMakeFiles/qc_model_conversion_ui_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/inventec/Documents/Qualcomm/qc_model_conversion/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/inventec/Documents/Qualcomm/qc_model_conversion /home/inventec/Documents/Qualcomm/qc_model_conversion /home/inventec/Documents/Qualcomm/qc_model_conversion/build /home/inventec/Documents/Qualcomm/qc_model_conversion/build /home/inventec/Documents/Qualcomm/qc_model_conversion/build/CMakeFiles/qc_model_conversion_ui_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/qc_model_conversion_ui_autogen.dir/depend
 

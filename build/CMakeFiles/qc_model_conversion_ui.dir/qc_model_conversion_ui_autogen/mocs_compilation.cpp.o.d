@@ -1,7 +1,7 @@
 CMakeFiles/qc_model_conversion_ui.dir/qc_model_conversion_ui_autogen/mocs_compilation.cpp.o: \
- /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/build/qc_model_conversion_ui_autogen/mocs_compilation.cpp \
+ /home/inventec/Documents/Qualcomm/qc_model_conversion/build/qc_model_conversion_ui_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/build/qc_model_conversion_ui_autogen/EWIEGA46WW/moc_mainwindow.cpp \
+ /home/inventec/Documents/Qualcomm/qc_model_conversion/build/qc_model_conversion_ui_autogen/EWIEGA46WW/moc_mainwindow.cpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -114,7 +114,7 @@ CMakeFiles/qc_model_conversion_ui.dir/qc_model_conversion_ui_autogen/mocs_compil
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
- /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/build/qc_model_conversion_ui_autogen/EWIEGA46WW/../../../mainwindow.h \
+ /home/inventec/Documents/Qualcomm/qc_model_conversion/build/qc_model_conversion_ui_autogen/EWIEGA46WW/../../../mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \

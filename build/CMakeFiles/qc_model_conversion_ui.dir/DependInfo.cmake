@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/main.cpp" "CMakeFiles/qc_model_conversion_ui.dir/main.cpp.o" "gcc" "CMakeFiles/qc_model_conversion_ui.dir/main.cpp.o.d"
-  "/home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/mainwindow.cpp" "CMakeFiles/qc_model_conversion_ui.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/qc_model_conversion_ui.dir/mainwindow.cpp.o.d"
-  "/home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/build/qc_model_conversion_ui_autogen/mocs_compilation.cpp" "CMakeFiles/qc_model_conversion_ui.dir/qc_model_conversion_ui_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/qc_model_conversion_ui.dir/qc_model_conversion_ui_autogen/mocs_compilation.cpp.o.d"
+  "/home/inventec/Documents/Qualcomm/qc_model_conversion/main.cpp" "CMakeFiles/qc_model_conversion_ui.dir/main.cpp.o" "gcc" "CMakeFiles/qc_model_conversion_ui.dir/main.cpp.o.d"
+  "/home/inventec/Documents/Qualcomm/qc_model_conversion/mainwindow.cpp" "CMakeFiles/qc_model_conversion_ui.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/qc_model_conversion_ui.dir/mainwindow.cpp.o.d"
+  "/home/inventec/Documents/Qualcomm/qc_model_conversion/build/qc_model_conversion_ui_autogen/mocs_compilation.cpp" "CMakeFiles/qc_model_conversion_ui.dir/qc_model_conversion_ui_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/qc_model_conversion_ui.dir/qc_model_conversion_ui_autogen/mocs_compilation.cpp.o.d"
   )
 
 # Targets to which this target links.

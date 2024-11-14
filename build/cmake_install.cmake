@@ -1,4 +1,4 @@
-# Install script for directory: /home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui
+# Install script for directory: /home/inventec/Documents/Qualcomm/qc_model_conversion
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/inventec/Documents/Qualcomm/model_conversion_ui/qc_model_conversion_ui/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/inventec/Documents/Qualcomm/qc_model_conversion/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

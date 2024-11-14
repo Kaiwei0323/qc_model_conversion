@@ -31,8 +31,8 @@ public:
     QLabel *uploadStatusLabel;
     QLabel *outputStatusLabel;
     QLabel *convertStatusLabel;
-    QComboBox *convertTypeComboBox;
-    QLabel *modelStatusLabel;
+    QComboBox *encodeChoiceComboBox;
+    QLabel *encodeStatusLabel;
     QComboBox *quantizeChoiceComboBox;
     QLabel *quantizeStatusLabel;
     QPushButton *quantizeButton;
@@ -50,6 +50,10 @@ public:
     QLabel *label_10;
     QPushButton *visualizeButton;
     QLabel *visualizeStatusLabel;
+    QPushButton *uploadEncodeButton;
+    QLabel *uploadEncodeStatusLabel;
+    QComboBox *resolutionChoiceComboBox;
+    QLabel *resolutionStatusLabel;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -69,7 +73,7 @@ public:
         outputButton->setGeometry(QRect(30, 290, 361, 41));
         convertButton = new QPushButton(centralwidget);
         convertButton->setObjectName(QString::fromUtf8("convertButton"));
-        convertButton->setGeometry(QRect(30, 500, 381, 71));
+        convertButton->setGeometry(QRect(30, 520, 381, 71));
         uploadStatusLabel = new QLabel(centralwidget);
         uploadStatusLabel->setObjectName(QString::fromUtf8("uploadStatusLabel"));
         uploadStatusLabel->setGeometry(QRect(40, 120, 351, 31));
@@ -78,15 +82,15 @@ public:
         outputStatusLabel->setGeometry(QRect(30, 330, 361, 41));
         convertStatusLabel = new QLabel(centralwidget);
         convertStatusLabel->setObjectName(QString::fromUtf8("convertStatusLabel"));
-        convertStatusLabel->setGeometry(QRect(30, 580, 1341, 281));
-        convertTypeComboBox = new QComboBox(centralwidget);
-        convertTypeComboBox->addItem(QString());
-        convertTypeComboBox->addItem(QString());
-        convertTypeComboBox->setObjectName(QString::fromUtf8("convertTypeComboBox"));
-        convertTypeComboBox->setGeometry(QRect(40, 190, 351, 31));
-        modelStatusLabel = new QLabel(centralwidget);
-        modelStatusLabel->setObjectName(QString::fromUtf8("modelStatusLabel"));
-        modelStatusLabel->setGeometry(QRect(40, 220, 341, 31));
+        convertStatusLabel->setGeometry(QRect(40, 610, 1331, 251));
+        encodeChoiceComboBox = new QComboBox(centralwidget);
+        encodeChoiceComboBox->addItem(QString());
+        encodeChoiceComboBox->addItem(QString());
+        encodeChoiceComboBox->setObjectName(QString::fromUtf8("encodeChoiceComboBox"));
+        encodeChoiceComboBox->setGeometry(QRect(40, 190, 121, 31));
+        encodeStatusLabel = new QLabel(centralwidget);
+        encodeStatusLabel->setObjectName(QString::fromUtf8("encodeStatusLabel"));
+        encodeStatusLabel->setGeometry(QRect(40, 220, 121, 31));
         quantizeChoiceComboBox = new QComboBox(centralwidget);
         quantizeChoiceComboBox->addItem(QString());
         quantizeChoiceComboBox->addItem(QString());
@@ -97,10 +101,10 @@ public:
         quantizeStatusLabel->setGeometry(QRect(30, 420, 191, 21));
         quantizeButton = new QPushButton(centralwidget);
         quantizeButton->setObjectName(QString::fromUtf8("quantizeButton"));
-        quantizeButton->setGeometry(QRect(230, 390, 221, 51));
+        quantizeButton->setGeometry(QRect(230, 380, 221, 41));
         quantizeImageStatusLabel = new QLabel(centralwidget);
         quantizeImageStatusLabel->setObjectName(QString::fromUtf8("quantizeImageStatusLabel"));
-        quantizeImageStatusLabel->setGeometry(QRect(250, 450, 201, 21));
+        quantizeImageStatusLabel->setGeometry(QRect(240, 430, 201, 21));
         label = new QLabel(centralwidget);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(150, 20, 131, 17));
@@ -118,7 +122,7 @@ public:
         label_5->setGeometry(QRect(20, 370, 67, 17));
         label_6 = new QLabel(centralwidget);
         label_6->setObjectName(QString::fromUtf8("label_6"));
-        label_6->setGeometry(QRect(30, 480, 67, 17));
+        label_6->setGeometry(QRect(20, 490, 67, 17));
         label_7 = new QLabel(centralwidget);
         label_7->setObjectName(QString::fromUtf8("label_7"));
         label_7->setGeometry(QRect(510, 50, 67, 17));
@@ -140,6 +144,20 @@ public:
         visualizeStatusLabel = new QLabel(centralwidget);
         visualizeStatusLabel->setObjectName(QString::fromUtf8("visualizeStatusLabel"));
         visualizeStatusLabel->setGeometry(QRect(520, 260, 561, 211));
+        uploadEncodeButton = new QPushButton(centralwidget);
+        uploadEncodeButton->setObjectName(QString::fromUtf8("uploadEncodeButton"));
+        uploadEncodeButton->setGeometry(QRect(210, 180, 201, 41));
+        uploadEncodeStatusLabel = new QLabel(centralwidget);
+        uploadEncodeStatusLabel->setObjectName(QString::fromUtf8("uploadEncodeStatusLabel"));
+        uploadEncodeStatusLabel->setGeometry(QRect(230, 230, 191, 17));
+        resolutionChoiceComboBox = new QComboBox(centralwidget);
+        resolutionChoiceComboBox->addItem(QString());
+        resolutionChoiceComboBox->addItem(QString());
+        resolutionChoiceComboBox->setObjectName(QString::fromUtf8("resolutionChoiceComboBox"));
+        resolutionChoiceComboBox->setGeometry(QRect(30, 450, 91, 25));
+        resolutionStatusLabel = new QLabel(centralwidget);
+        resolutionStatusLabel->setObjectName(QString::fromUtf8("resolutionStatusLabel"));
+        resolutionStatusLabel->setGeometry(QRect(130, 460, 131, 17));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -157,16 +175,16 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        uploadButton->setText(QCoreApplication::translate("MainWindow", "Upload .pt Model", nullptr));
+        uploadButton->setText(QCoreApplication::translate("MainWindow", "Upload .onnx Model", nullptr));
         outputButton->setText(QCoreApplication::translate("MainWindow", "Choose Output Folder", nullptr));
         convertButton->setText(QCoreApplication::translate("MainWindow", "Convert Model", nullptr));
-        uploadStatusLabel->setText(QCoreApplication::translate("MainWindow", "Choose a .pt Model", nullptr));
+        uploadStatusLabel->setText(QCoreApplication::translate("MainWindow", "Choose a .onnx Model", nullptr));
         outputStatusLabel->setText(QCoreApplication::translate("MainWindow", "Choose a output path", nullptr));
         convertStatusLabel->setText(QCoreApplication::translate("MainWindow", "Model Convert Status", nullptr));
-        convertTypeComboBox->setItemText(0, QCoreApplication::translate("MainWindow", "yolov5", nullptr));
-        convertTypeComboBox->setItemText(1, QCoreApplication::translate("MainWindow", "yolov8", nullptr));
+        encodeChoiceComboBox->setItemText(0, QCoreApplication::translate("MainWindow", "No", nullptr));
+        encodeChoiceComboBox->setItemText(1, QCoreApplication::translate("MainWindow", "Yes", nullptr));
 
-        modelStatusLabel->setText(QCoreApplication::translate("MainWindow", "You Select: Yolov5", nullptr));
+        encodeStatusLabel->setText(QCoreApplication::translate("MainWindow", "Disable Encoding", nullptr));
         quantizeChoiceComboBox->setItemText(0, QCoreApplication::translate("MainWindow", "Yes", nullptr));
         quantizeChoiceComboBox->setItemText(1, QCoreApplication::translate("MainWindow", "No", nullptr));
 
@@ -186,6 +204,12 @@ public:
         label_10->setText(QCoreApplication::translate("MainWindow", "STEP2:", nullptr));
         visualizeButton->setText(QCoreApplication::translate("MainWindow", "Visualize", nullptr));
         visualizeStatusLabel->setText(QCoreApplication::translate("MainWindow", "Model Visualize Status", nullptr));
+        uploadEncodeButton->setText(QCoreApplication::translate("MainWindow", "Upload .encodings File", nullptr));
+        uploadEncodeStatusLabel->setText(QCoreApplication::translate("MainWindow", "Choose a .encodings File", nullptr));
+        resolutionChoiceComboBox->setItemText(0, QCoreApplication::translate("MainWindow", "480x480", nullptr));
+        resolutionChoiceComboBox->setItemText(1, QCoreApplication::translate("MainWindow", "640x640", nullptr));
+
+        resolutionStatusLabel->setText(QString());
     } // retranslateUi
 
 };
