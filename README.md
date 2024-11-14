@@ -3,7 +3,7 @@
 ## Prerequisites
 * OS: Ubuntu 22.04
 * SNPE SDK: v2.22.6.240515
-* Model: YOLOv5 or YOLOv8 (.pt)
+* Model: YOLOV8, DETR-Resnet101
 
 ## SNPE SDK Installation
 [SNPE SDK](https://www.qualcomm.com/developer/software/neural-processing-sdk-for-ai)
@@ -39,18 +39,19 @@ cd qc_model_conversion/deploy
 ```
 
 ## Application UI
-![ui](https://github.com/user-attachments/assets/2a6c1843-8f9c-4bff-8467-0ca4e6a43908)
+![Screenshot from 2024-11-14 15-18-10](https://github.com/user-attachments/assets/26157c00-17d0-435c-86d9-88597f684c60)
 
 ## Model Conversion
 * Step1:
-Upload your PyTorch model (.pt)
+Upload your ONNX model (.onnx)
 * Step2:
-Select the model type (YoloV5 or YoloV8)
+Decide whether to encode the model 
+    - If yes, upload the encoding file
 * Step3:
-Choose the target output folder (.onnx and .dlc)
+Choose the target output folder
 * Step4:
 Decide whether to quantize the model
-If yes, select the image folder (.jpg) for quantization
+    - If yes, select the image folder (.jpg) for quantization and image input size
 * Step5:
 Click on the "Convert Model" button
 
@@ -61,29 +62,6 @@ Upload your DLC model (.dlc)
 Click on the "Visualize" button
 
 ## Check Model Input / Output Layer
-### YoloV5 (yolov5s_quantized_output.txt)
-```
------------------------------------------------------------------------------------------------------------------------------------------------
-| Input Name  | Dimensions   | Type    | Encoding Info                                                                                        |
------------------------------------------------------------------------------------------------------------------------------------------------
-| images      | 1,640,640,3  | uFxp_8  | bitwidth 8, min -1.000000000000, max 0.992187500000, scale 0.007812500000, offset -128.000000000000  |
------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------
-| Output Name  | Dimensions  | Type    | Encoding Info                                                                                      |
----------------------------------------------------------------------------------------------------------------------------------------------
-| output0      | 1,25200,85  | uFxp_8  | bitwidth 8, min 0.000000000000, max 713.389831542969, scale 2.797607183456, offset 0.000000000000  |
----------------------------------------------------------------------------------------------------------------------------------------------
-```
-Summary:
-* Input Layer:
-    - Name: images
-    - Shape: (1, 640, 640, 3)
-    - Type: uint8
-* Output Layer:
-    - Name: output0
-    - Shape: (1, 25200, 85)
-    - Type: uint8
-
 ### YoloV8 (yolov8s_quantized_output.txt)
 ```
 -----------------------------------------------------------------------------------------------------------------------------------------------
