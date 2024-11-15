@@ -10,31 +10,31 @@
 
 [ANDROID NDK](https://dl.google.com/android/repository/android-ndk-r26c-linux.zip)
 
-## Setup SNPE Environment
-```
-conda create --name snpe python=3.10
-conda activate snpe
-export SNPE_ROOT=/home/inventec/Documents/Qualcomm/model_conversion/v2.22.6.240515/qairt/2.22.6.240515
-${SNPE_ROOT}/bin/check-python-dependency
-sudo bash ${SNPE_ROOT}/bin/check-linux-dependency.sh
-sudo apt-get install make
-export ANDROID_NDK_ROOT=/home/inventec/Documents/Qualcomm/model_conversion/android-ndk-r26c-linux/android-ndk-r26c
-export PATH=${ANDROID_NDK_ROOT}:${PATH}
-${SNPE_ROOT}/bin/envcheck -c
-pip install onnx==1.12.0
-pip install onnxruntime==1.17.1
-pip install ultralytics
-source ${SNPE_ROOT}/bin/envsetup.sh
-```
-
-## Download the repo
+## Clone the project repository
 ```
 git clone https://github.com/Kaiwei0323/qc_model_conversion.git
 ```
 
+## SNPE Environment Setup
+1. Create and Activate Conda Environment
+```
+conda create --name snpe python=3.10
+conda activate snpe
+```
+2. Set Environment Variables
+```
+export SNPE_ROOT=/home/inventec/Documents/Qualcomm/model_conversion/v2.22.6.240515/qairt/2.22.6.240515
+export ANDROID_NDK_ROOT=/home/inventec/Documents/Qualcomm/model_conversion/android-ndk-r26c-linux/android-ndk-r26c
+```
+
+3. Run the Setup Script
+```
+sudo -E ./setup_env.sh && source ${SNPE_ROOT}/bin/envsetup.sh
+```
+
 ## Run Application
 ```
-cd qc_model_conversion/deploy
+cd deploy
 ./qc_model_conversion_ui
 ```
 
