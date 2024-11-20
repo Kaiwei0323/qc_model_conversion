@@ -1,7 +1,7 @@
 # Qualcomm Model Conversion
 
 ## Prerequisites
-* OS: Ubuntu 22.04
+* OS: Ubuntu 22.04 (X86)
 * SNPE SDK: v2.22.6.240515
 * Model: YOLOV8, DETR-Resnet101
 
