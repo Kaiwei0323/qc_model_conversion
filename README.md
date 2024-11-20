@@ -6,9 +6,8 @@
 * Model: YOLOV8, DETR-Resnet101
 
 ## SNPE SDK Installation
-[SNPE SDK](https://www.qualcomm.com/developer/software/neural-processing-sdk-for-ai)
-
-[ANDROID NDK](https://dl.google.com/android/repository/android-ndk-r26c-linux.zip)
+* [SNPE SDK](https://www.qualcomm.com/developer/software/neural-processing-sdk-for-ai)
+* [ANDROID NDK](https://dl.google.com/android/repository/android-ndk-r26c-linux.zip)
 
 ## Clone the project repository
 ```
@@ -40,6 +39,10 @@ cd deploy
 
 ## Application UI
 ![Screenshot from 2024-11-14 15-18-10](https://github.com/user-attachments/assets/26157c00-17d0-435c-86d9-88597f684c60)
+
+## Model Installation
+* [DETR-ResNet101 Model on Qualcomm AI Hub](https://aihub.qualcomm.com/models/detr_resnet101?searchTerm=detr)
+* [YOLOv8 Documentation](https://docs.ultralytics.com/models/yolov8/)
 
 ## Model Conversion
 * Step1:
