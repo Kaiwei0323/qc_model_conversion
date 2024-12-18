@@ -44,6 +44,14 @@ cd deploy
 * [DETR-ResNet101 Model on Qualcomm AI Hub](https://aihub.qualcomm.com/models/detr_resnet101?searchTerm=detr)
 * [YOLOv8 Documentation](https://docs.ultralytics.com/models/yolov8/)
 
+## Model Preparation
+python
+```
+from ultralytics import YOLO
+model = YOLO('yolov8s.pt')
+model.export(format='onnx', opset=10)
+```
+
 ## Model Conversion
 * Step1:
 Upload your ONNX model (.onnx)
