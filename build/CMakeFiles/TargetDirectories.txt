@@ -1,0 +1,4 @@
+/home/inventec/Documents/Qualcomm/qc_model_conversion/build/CMakeFiles/qc_model_conversion_ui.dir
+/home/inventec/Documents/Qualcomm/qc_model_conversion/build/CMakeFiles/edit_cache.dir
+/home/inventec/Documents/Qualcomm/qc_model_conversion/build/CMakeFiles/rebuild_cache.dir
+/home/inventec/Documents/Qualcomm/qc_model_conversion/build/CMakeFiles/qc_model_conversion_ui_autogen.dir

@@ -1,0 +1,61 @@
+/* General MainWindow Style */
+QMainWindow {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Push Buttons */
+QPushButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+QPushButton:hover {
+    background-color: #0056b3;
+}
+
+QPushButton:disabled {
+    background-color: #d6d6d6;
+}
+
+/* Labels */
+QLabel {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Line Edit */
+QLineEdit {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+/* ComboBox */
+QComboBox {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+QComboBox::drop-down {
+    border-left: 1px solid #ccc;
+}
+
+/* Status Labels */
+#uploadStatusLabel, #outputStatusLabel, #convertStatusLabel, #modelStatusLabel {
+    font-weight: bold;
+}
+
+/* Scroll Area */
+QScrollArea {
+    background-color: #ffffff;
+}
+
